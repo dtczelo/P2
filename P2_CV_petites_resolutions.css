@@ -1,0 +1,249 @@
+header
+{
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-end;
+	align-items: center;
+	min-height: 350px;
+}
+
+#container
+{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+#block_1
+{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(254,202,7);
+	width: 100%;
+}
+
+#block_2
+{
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+}
+
+/* Header */
+
+#title
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 7% 0 7% 60%;
+}
+
+#photo
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-color: rgb(254,202,7);
+	width: 100%;
+	padding-left: 33%
+}
+
+figure img
+{
+	height: 270px;
+	width: 50%;
+	height: 50%;
+	border: solid 3px rgba(74,74,74,0.2);
+	border-radius: 50%;
+}
+
+/* Partie Info */
+
+#contact
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#a_propos
+{
+	display: flex;
+	flex-direction: column;
+	min-height: 200px;
+	color: rgb(64,64,64);
+}
+
+#loisirs
+{
+	display: flex;
+	flex-direction: column;
+}
+
+/* Partie description */
+
+#formations
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#experiences
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#recommandations
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#block_2 article
+{
+	padding-left: 4%;
+}
+
+/* Sous-parties */
+
+.contact
+{
+	padding: 40px;
+}
+
+.a_propos
+{
+	padding: 40px;
+}
+
+.loisirs
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: rgb(64,64,64);
+	font-size: 6vw;
+	padding: 40px 40px;
+}
+
+.formations
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.experiences
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.recommandations
+{
+	display: flex;
+	flex-direction: row;
+}
+
+h1
+{
+	font-size: 5.2vw;
+	font-weight: bold;
+}
+
+h2
+{
+	color: rgb(20,20,20);
+	font-size: 3.2vw;
+	font-weight: bold;
+}
+
+h3
+{
+	font-size: 2.5vw;
+	font-weight: bold;
+}
+
+h4
+{
+	font-size: 2.5vw;
+}
+
+.color_image
+{
+	color: rgba(254,202,7,0.8);
+	margin-right: 30px;
+}
+
+.black_border  /* Bande noire titre partie info */
+{
+	text-align: center;
+	background-color: rgb(64,64,64);
+	padding: 10px;
+	margin: 0px;
+}
+
+.color_text
+{
+	color: rgb(254,202,7);
+}
+
+.text
+{
+	margin-bottom: 20px;
+	width: 70%;
+}
+
+.dates
+{
+	width: 40%;
+}
+
+.dot
+{
+	font-size: 2.3vw;
+}
+
+.text_offset
+{
+	padding-left: 20px;
+	line-height: 120%;
+}
+
+#block_2 h2
+{
+	border-bottom: solid 3px;
+	border-bottom-color: rgba(254,202,7,0.8);
+	padding-bottom: 10px;
+}
+
+.reco_1
+{
+	width: 60%;
+}
+
+/* Titre principal */
+
+header h1
+{
+	margin-bottom: 0px;
+}
+
+strong   /* Sous-titre principal */
+{
+	font-size: 3.3vw;
+	font-weight: bold;
+	color: rgb(74,74,74);
+}
+
+.text_underligned
+{
+	border-bottom-style: solid;
+	border-bottom-color: rgba(254,202,7,0.8);
+}
+
+p
+{
+	font-size: 2.2vw;
+}
