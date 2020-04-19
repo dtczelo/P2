@@ -36,7 +36,7 @@ header
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
-	padding: 7% 0 7% 60%;
+	padding: 7% 0 7% 40%;
 }
 
 #photo
@@ -210,7 +210,6 @@ h4
 .text_offset
 {
 	padding-left: 20px;
-	line-height: 120%;
 }
 
 #block_2 h2

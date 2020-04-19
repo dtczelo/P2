@@ -92,7 +92,6 @@ figure img
 {
 	display: flex;
 	flex-direction: column;
-	min-height: 400px;
 }
 
 #a_propos
