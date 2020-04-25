@@ -97,8 +97,8 @@ figure img
 {
 	display: flex;
 	flex-direction: column;
-	min-height: 900px;
 	color: rgb(64,64,64);
+	flex: auto;
 }
 
 #loisirs
@@ -228,7 +228,34 @@ label
 
 .text
 {
+	opacity: 0.9;
 	width: 70%;
+}
+
+.formations:hover .text
+{
+	transition:all 1s;
+	opacity: 1;
+}
+
+.formations:hover h3
+{
+	transition:all 1.5s;
+	border-bottom: rgb(254,202,7) solid;
+	padding-bottom: 10px;
+}
+
+.experiences:hover .text
+{
+	transition:all 1s;
+	opacity: 1;
+}
+
+.experiences:hover h3
+{
+	transition:all 1.5s;
+	border-bottom: rgb(254,202,7) solid;
+	padding-bottom: 10px;
 }
 
 .dates

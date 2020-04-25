@@ -36,7 +36,7 @@ header
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
-	padding: 7% 0 7% 40%;
+	padding: 7% 0 7% 50%;
 }
 
 #photo
@@ -47,7 +47,7 @@ header
 	align-content: center;
 	background-color: rgb(254,202,7);
 	width: 100%;
-	padding-left: 33%
+	padding-left: 40%
 }
 
 figure img
@@ -172,6 +172,13 @@ h4
 	margin-bottom: 0px;
 }
 
+label
+{
+	font-size: 2.4vw;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
 .color_image
 {
 	color: rgba(254,202,7,0.8);
@@ -193,8 +200,36 @@ h4
 
 .text
 {
+	opacity: 0.9;
+	width: 70%;
 	margin-bottom: 20px;
 	width: 70%;
+}
+
+.formations:hover .text
+{
+	transition:all 1s;
+	opacity: 1;
+}
+
+.formations:hover h3
+{
+	transition:all 1.5s;
+	border-bottom: rgb(254,202,7) solid;
+	padding-bottom: 10px;
+}
+
+.experiences:hover .text
+{
+	transition:all 1s;
+	opacity: 1;
+}
+
+.experiences:hover h3
+{
+	transition:all 1.5s;
+	border-bottom: rgb(254,202,7) solid;
+	padding-bottom: 10px;
 }
 
 .dates
@@ -204,7 +239,7 @@ h4
 
 .dot
 {
-	font-size: 2.3vw;
+	font-size: 2.5vw;
 }
 
 .text_offset
@@ -246,5 +281,5 @@ strong   /* Sous-titre principal */
 
 p
 {
-	font-size: 2.2vw;
+	font-size: 2.4vw;
 }
