@@ -2,9 +2,8 @@ header
 {
 	display: flex;
 	flex-direction: column-reverse;
-	justify-content: flex-end;
 	align-items: center;
-	min-height: 350px;
+	min-height: 300px;
 }
 
 #container
@@ -36,7 +35,7 @@ header
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
-	padding: 7% 0 7% 50%;
+	padding: 7% 0 7% 38%;
 }
 
 #photo
@@ -46,8 +45,8 @@ header
 	align-items: center;
 	align-content: center;
 	background-color: rgb(254,202,7);
-	width: 100%;
-	padding-left: 40%
+	width: 120%;
+	padding-left: 50%
 }
 
 figure img
@@ -124,57 +123,59 @@ figure img
 	flex-direction: row;
 	justify-content: space-around;
 	color: rgb(64,64,64);
-	font-size: 6vw;
+	font-size: 10vw;
 	padding: 40px 40px;
 }
 
 .formations
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .experiences
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .recommandations
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 h1
 {
-	font-size: 5.2vw;
+	font-size: 7.2vw;
 	font-weight: bold;
 }
 
 h2
 {
 	color: rgb(20,20,20);
-	font-size: 3.2vw;
+	font-size: 6.8vw;
 	font-weight: bold;
 }
 
 h3
 {
-	font-size: 2.5vw;
+	font-size: 6vw;
 	font-weight: bold;
 	margin-top: 0px;
+	margin-bottom: 5px;
 }
 
 h4
 {
-	font-size: 2.5vw;
+	font-size: 5.5vw;
+	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
 label
 {
-	font-size: 2.4vw;
+	font-size: 6vw;
 	font-weight: bold;
 	margin-top: 0px;
 }
@@ -201,9 +202,9 @@ label
 .text
 {
 	opacity: 0.9;
-	width: 70%;
+	width: 100%;
 	margin-bottom: 20px;
-	width: 70%;
+	padding-left: 5vw;
 }
 
 .formations:hover .text
@@ -234,17 +235,19 @@ label
 
 .dates
 {
-	width: 40%;
+	width: 100%;
 }
 
 .dot
 {
-	font-size: 2.5vw;
+	position: relative;
+	top: 5vw;
+	font-size: 3.4vw;
 }
 
 .text_offset
 {
-	padding-left: 20px;
+	padding-left: 5vw;
 }
 
 #block_2 h2
@@ -268,7 +271,7 @@ header h1
 
 strong   /* Sous-titre principal */
 {
-	font-size: 3.3vw;
+	font-size: 5.5vw;
 	font-weight: bold;
 	color: rgb(74,74,74);
 }
@@ -281,5 +284,5 @@ strong   /* Sous-titre principal */
 
 p
 {
-	font-size: 2.4vw;
+	font-size: 4.8vw;
 }
